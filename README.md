@@ -1,4 +1,4 @@
-# @codeallday/eslint-plugin-codeallday
+# @codeallday/eslint-plugin
 
 Preferred eslint configuration of Code All Day LLC
 
@@ -10,27 +10,26 @@ You'll first need to install [ESLint](http://eslint.org):
 $ yarn add --dev eslint
 ```
 
-Next, install `eslint-plugin-codeallday`:
+Next, install `@codeallday/eslint-plugin`:
 
 ```
-$ yarn add --dev @codeallday/eslint-plugin-codeallday
+$ yarn add --dev @codeallday/eslint-plugin
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-codeallday` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@codeallday/eslint-plugin` globally.
 
 ## Usage
 
-Add `codeallday` to the plugins section of your `.eslintrc.js` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@codeallday` to the plugins section of your `.eslintrc.js` configuration file.
 
 ```javascript
 // .eslintrc.js
 module.exports = {
   plugins: [
-    'codeallday'
+    '@codeallday'
   ],
   extends: [
-    'eslint:recommended',
-    'plugin:codeallday/recommended'
+    'plugin:@codeallday/recommended'
   ],
   rules: {
     // override rules' settings here
@@ -38,6 +37,8 @@ module.exports = {
 }
 ```
 ```
+
+## Using Prettier
 
 ## Supported Rules
 

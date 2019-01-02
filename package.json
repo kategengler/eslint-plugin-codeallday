@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-codeallday",
+  "name": "@codeallday/eslint-plugin",
   "version": "0.0.0",
   "description": "Preferred eslint configuration of Code All Day LLC",
   "keywords": [
@@ -13,13 +13,14 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-ember": "^6.0.0",
     "eslint-plugin-prettier": "^3.0.0",
     "prettier": "^1.15.2",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
     "mocha": "^3.1.2"
   },
   "engines": {
