@@ -1,4 +1,4 @@
-# @codeallday/eslint-plugin
+# eslint-plugin-codeallday
 
 Preferred eslint configuration of Code All Day LLC
 
@@ -10,26 +10,26 @@ You'll first need to install [ESLint](http://eslint.org):
 $ yarn add --dev eslint
 ```
 
-Next, install `@codeallday/eslint-plugin`:
+Next, install `eslint-plugin-codeallday`:
 
 ```
-$ yarn add --dev @codeallday/eslint-plugin
+$ yarn add --dev eslint-plugin-codeallday
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@codeallday/eslint-plugin` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-codeallday` globally.
 
 ## Usage
 
-Add `@codeallday` to the plugins section of your `.eslintrc.js` configuration file.
+Add `codeallday` to the plugins section of your `.eslintrc.js` configuration file.
 
 ```javascript
 // .eslintrc.js
 module.exports = {
   plugins: [
-    '@codeallday'
+    'codeallday'
   ],
   extends: [
-    'plugin:@codeallday/recommended'
+    'plugin:codeallday/recommended'
   ],
   rules: {
     // override rules' settings here

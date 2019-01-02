@@ -1,5 +1,5 @@
 {
-  "name": "@codeallday/eslint-plugin",
+  "name": "eslint-plugin-codeallday",
   "version": "0.0.0",
   "description": "Preferred eslint configuration of Code All Day LLC",
   "keywords": [
