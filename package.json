@@ -12,8 +12,10 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "peerDependencies": {
+    "eslint": ">= 5.0.0"
+  },
   "dependencies": {
-    "eslint": "^5.11.1",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-ember": "^6.0.0",
     "eslint-plugin-prettier": "^3.0.0",
