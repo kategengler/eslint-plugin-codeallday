@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-codeallday",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Preferred eslint configuration of Code All Day LLC",
   "keywords": [
     "eslint",
