@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-codeallday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Preferred eslint configuration of Code All Day LLC",
   "keywords": [
     "eslint",
@@ -12,7 +12,9 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "peerDependencies": {
     "eslint": ">= 5.0.0"
   },
