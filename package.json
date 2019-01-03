@@ -12,6 +12,7 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "files": ["lib"],
   "peerDependencies": {
     "eslint": ">= 5.0.0"
   },
